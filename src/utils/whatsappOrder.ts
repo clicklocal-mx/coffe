@@ -2,6 +2,7 @@ import type { CompletedOrder } from '../types/cart';
 import { formatCurrency } from './formatters';
 
 const DEFAULT_COFFEE_SHOP_PHONE = '526612865423'; // Rosarito (+52 661 286 5423)
+const LIVE_PWA_URL = 'https://clicklocal-mx.github.io/coffe/';
 
 export const buildWhatsAppMessage = (order: CompletedOrder): string => {
   const dateStr = new Date().toLocaleString('es-MX', {
@@ -53,7 +54,7 @@ export const buildWhatsAppMessage = (order: CompletedOrder): string => {
   message += `\n━━━━━━━━━━━━━━━━━━━━━━\n`;
   message += `💵 *Subtotal:* ${formatCurrency(order.subtotal)}\n`;
   if (order.tipAmount > 0) {
-    message += `✨ *Propina (${order.tipPercentage}%):* ${formatCurrency(order.tipAmount)}\n`;
+    message += `✨ *Propina al Barista (${order.tipPercentage}%):* ${formatCurrency(order.tipAmount)}\n`;
   }
   message += `🧾 *TOTAL A PAGAR:* *${formatCurrency(order.total)}*\n`;
   message += `━━━━━━━━━━━━━━━━━━━━━━\n`;
@@ -62,7 +63,8 @@ export const buildWhatsAppMessage = (order: CompletedOrder): string => {
     message += `💬 *Comentario:* ${order.customer.notes}\n\n`;
   }
 
-  message += `¡Muchas gracias por su preferencia! 🌊☕`;
+  message += `🌐 *Ver Menú Digital / PWA:* ${LIVE_PWA_URL}\n`;
+  message += `¡Muchas gracias por apoyar el café local de Playas de Rosarito! 🌊☕`;
 
   return message;
 };
