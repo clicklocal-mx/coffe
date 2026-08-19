@@ -1,0 +1,18 @@
+{
+  "name": "Costa Bruma Café - Rosarito",
+  "short_name": "Costa Bruma",
+  "description": "Menú interactivo y pedidos de café de especialidad en Playas de Rosarito, B.C.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#C86D51",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
