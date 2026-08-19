@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# ☕ Costa Bruma Café & Tostaduría — PWA & Interactive Digital Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web interactiva y Progressive Web App (PWA) para cafetería de especialidad en **Playas de Rosarito, Baja California**, desarrollada con React 19, TypeScript, Vite 8 y Tailwind CSS v4.
 
-Currently, two official plugins are available:
+🌐 **Demo en Vivo (GitHub Pages):** [https://clicklocal-mx.github.io/coffe/](https://clicklocal-mx.github.io/coffe/)  
+📦 **Repositorio Oficial:** [https://github.com/clicklocal-mx/coffe](https://github.com/clicklocal-mx/coffe)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Características Principales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎨 1. Motor Multi-Diseño (9 Estilos Visuales en Tiempo Real)
+1. **🌊 Costa Bruma (Rosarito):** Estilo insignia playero con tonos arcilla, azul oceánico y arena.
+2. **☕ McCafé / Costa Café Showcase:** Estructura interactiva con marco chocolate, carrusel de vitrina, tarjeta caramelo destacada y selector de vaso/leche.
+3. **🏺 Drinko Studio (Warm Editorial):** Fondo piedra/caliza, titular *"ORDER COFFEE Welcome"*, botones terracota y banner spotlight *New Drink*.
+4. **🤍 Minimalist & Clean:** Blanco y negro escandinavo de alta precisión.
+5. **✨ Elegante & Haute Café:** Verde esmeralda profundo y acentos dorados.
+6. **🌿 Bohemio & Rústico:** Arcilla natural, lino y maderas cálidas.
+7. **🌸 Girly Pop & Pastel:** Rosa chic y lavanda suave.
+8. **💥 Pop Caricaturesco:** Trazos estilo cómic y sombras marcadas.
+9. **⚡ Neo Cyber / Midnight:** Neón cian y violeta sobre fondo oscuro.
 
-## Expanding the Oxlint configuration
+### 🌐 2. Sistema de Idioma Bilingüe (Español 🇲🇽 / English 🇺🇸)
+- Alternador instantáneo en Navbar y menú de opciones para turistas de California / USA y clientes locales.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### 🃏 3. Gamificación "Coffee Match" (Modo Swipe Gestual)
+- Tarjetas interactivas con gestos táctiles (Swipe Izquierda = Pasar, Swipe Derecha = Favorito, Swipe Arriba = Pedir).
+- Botón de Deshacer (Rewind) y descripciones picarescas exclusivas de Rosarito.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### 🛍️ 4. Comanda Multicanal & Pedido por WhatsApp
+- Checkout con propina al barista y despacho directo a WhatsApp (`+52 661 286 5423`).
+- Impresión de Ticket Térmico POS.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 🎁 5. Fidelidad & Herramientas para Clientes
+- **Tarjeta de Sellos Digital:** 8 sellos para café gratis de la casa.
+- **WiFi de Clientes:** Conexión y QR instantáneo (`CostaBrumaCafe` / `RosaritoWaves`).
+- **Encuesta de Satisfacción:** Cupón de descuento `ROSACOFFEE10` al completar.
+- **Modo Barista:** Gestión de stock en vivo y arqueo de turno.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Framework:** React 19 + TypeScript
+- **Bundler:** Vite 8
+- **Estilos:** Tailwind CSS v4 + Lucide Icons
+- **Animaciones:** Canvas Confetti & Transiciones CSS
+
+---
+
+Desarrollado con ❤️ para **Playas de Rosarito, B.C.**
